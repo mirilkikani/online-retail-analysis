@@ -1,4 +1,4 @@
-# Online Retail Sales Analysis (Dec 2009 - Nov 2011)
+﻿# Online Retail Sales Analysis (Dec 2009 - Nov 2011)
 
 Analysis of two years of transactions from a UK-based online gift retailer, using **Python, DuckDB (SQL), pandas and matplotlib**.
 
@@ -17,11 +17,11 @@ How does revenue develop over the year, and what drives the peaks?
 3. **Peaks come from more customers, not bigger spending.** Active customers more than double from February to November 2011 (757 to 1,660), while revenue per customer stays between about £530 and £760.
 4. **December drops sharply.** Revenue halves from November to December 2010, which suggests Christmas orders are placed in October and November.
 
-![Monthly revenue 2010 vs 2011](revenue_2010_vs_2011.png)
+![Monthly revenue 2010 vs 2011](images/revenue_2010_vs_2011.png)
 
 ## Project structure
 - `notebooks/` - data cleaning and exploration notebooks
-- `monthly_revenue.png`, `revenue_2010_vs_2011.png` - saved charts
+- `images/` - saved charts
 - `data/` - not included (download the dataset from UCI)
 
 ## Tools
